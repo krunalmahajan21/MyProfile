@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head><title>empApplicationForm</title></head>
+      <body>
+        <h3>Employee Registration Form</h3>
+          <form>
+            <table>
+               <tbody>
+                  <tr>
+            <td><lable for="fullName"> Full Name </lable></td>
+            <td><input type="text" id="fullName" autofocus required maxlength="40"></td>            
+        </tr>
+        <tr>
+            <td><lable> Email </lable></td>
+            <td><input type="email" required placeholder="abc@gmail.com"></td>
+        </tr>
+        <tr>
+            <td><lable> Password </lable></td>
+            <td><input type="Password"></td>
+        </tr>
+        <tr>
+            <td><lable> Contact Number </lable></td>
+            <td><input type="number"></td>
+        </tr>
+        <tr>
+            <td><lable>Profile Photo</lable></td>
+            <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td><lable>Date of Birth</lable></td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td><label>Select Gender</label></td>
+            <td>
+                <input type="radio" name="gender"><label> Male </label>
+                <input type="radio" name="gender"><label> Female </label>
+                <input type="radio" name="gender"><label> Other </label>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Maratial Status</label></td>
+            <td>
+                <input type="radio" name="gender"><label> Yes </label>
+                <input type="radio" name="gender"><label> No </label>               
+            </td>
+        </tr>
+        <tr>
+        <td> <lable>Known Tools and Technology</lable></td>
+            <td><input type="checkbox"> Angular  
+            <input type="checkbox"> React 
+            <input type="checkbox"> <label> Python </label> 
+            <input type="checkbox"> <label> Java </label> 
+            <input type="checkbox"> <label> Jenkin </label> 
+            <input type="checkbox"> <label> GIT </label> 
+            <input type="checkbox"> <label> Database </label>
+        </td>                                   
+        </tr>
+        <tr>         
+            <td><label>Designation</label></td>                    
+            <td>
+            <select>
+            <option>UI Developer</option>
+            <option>Backend Developer</option>
+            <option>Fullstack Developer</option>
+            <option>DevOps Engineer</option>
+            <option>Tester</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td><lable>Country</lable></td>
+            <td><input type="text"value="India"readonly></td>
+        </tr>
+        <tr>
+            <td>Present Address</td>
+            <td> <textarea rows="8" cols="50"></textarea></td>
+        </tr>
+        <tr>
+            <td><button type="submit"> Register</button></td>
+            <td><button type="reset"> Clear All</button></td>
+            
+        </tr>
+        </form>
+        </table>
+         </tbody>
+    </body>
+</html>
